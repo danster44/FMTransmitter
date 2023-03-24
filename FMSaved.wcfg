@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="DDS_wrapper_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="DDS_wrapper" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1,482.492518 us"></ZoomStartTime>
+      <ZoomEndTime time="1,568.265497 us"></ZoomEndTime>
+      <Cursor1Time time="1,553.970000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="340"></NameColumnWidth>
+      <ValueColumnWidth column_width="145"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wvobject fp_name="group129" type="group">
+      <obj_property name="label">Multiplier Output</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/DDS_wrapper/DDS_i/ila_2/probe1" type="array">
+         <obj_property name="ElementShortName">probe1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">probe1[31:0]</obj_property>
+         <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+         <obj_property name="CellHeight">100</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DDS_wrapper/DDS_i/ila_2/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group132" type="group">
+      <obj_property name="label">Carrier</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/DDS_wrapper/DDS_i/ila_1/probe27" type="array">
+         <obj_property name="ElementShortName">probe27[7:0]</obj_property>
+         <obj_property name="ObjectShortName">probe27[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DDS_wrapper/DDS_i/ila_1/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group133" type="group">
+      <obj_property name="label">Noise</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/DDS_wrapper/DDS_i/ila_0/probe27" type="array">
+         <obj_property name="ElementShortName">probe27[7:0]</obj_property>
+         <obj_property name="ObjectShortName">probe27[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DDS_wrapper/DDS_i/ila_0/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/DDS_wrapper/DDS_i/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DDS_wrapper/DDS_i/dds_compiler_0/aclk" type="logic">
+      <obj_property name="ElementShortName">aclk</obj_property>
+      <obj_property name="ObjectShortName">aclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DDS_wrapper/DDS_i/dds_compiler_1/aclk" type="logic">
+      <obj_property name="ElementShortName">aclk</obj_property>
+      <obj_property name="ObjectShortName">aclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DDS_wrapper/DDS_i/dds_compiler_1/m_axis_data_tdata" type="array">
+      <obj_property name="ElementShortName">m_axis_data_tdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_data_tdata[7:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DDS_wrapper/DDS_i/dds_compiler_0/m_axis_data_tdata" type="array">
+      <obj_property name="ElementShortName">m_axis_data_tdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_data_tdata[7:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+   </wvobject>
+</wave_config>
